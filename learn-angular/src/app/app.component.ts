@@ -14,4 +14,6 @@ import { UserComponent } from './components/user/user.component';
 })
 export class AppComponent {
   city = 'San Francisco';
+
+  isServerRunning = true;
 }
