@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-user',
@@ -12,4 +12,11 @@ export class UserComponent {
     required: true
   })
   username = 'lil-loop';
+
+  @Output()
+  addTurtleEvent = new EventEmitter<string>();
+
+  addTurtle(){
+    this.addTurtleEvent.emit('🐢');
+  }
 }
