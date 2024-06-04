@@ -15,13 +15,5 @@ export class UserComponent {
     required: true
   })
   username = 'lil-loop';
-
-  @Output()
-  addTurtleEvent = new EventEmitter<string>();
-
-  randomImageGeneratorLink = "https://picsum.photos/400";
-
-  addTurtle(){
-    this.addTurtleEvent.emit('🐢');
-  }
+  randomImageGeneratorLink = "https://picsum.photos/400";  
 }
