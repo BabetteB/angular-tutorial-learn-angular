@@ -1,50 +1,10 @@
 Hello {{city}} {{1+1}}
 
 <nav>
-<a href="/">Home</a>
-|
-<a href="/user">User</a>
+  <a routerLink="/">Home</a>
+  |
+  <a routerLink="/user">User</a>
+  |
+  <a routerLink="/facts">Facts</a>
 </nav>
 <router-outlet></router-outlet>
-@if (isServerRunning) {
-  <p>
-    Yes, the server is running
-  </p>
-}
-@else {
-  <p>
-    No, the server is not running
-  </p>
-}
-
-@for (user of users; track user.id) {
-  <p>{{user.name}}</p>
-}
-
-{{turtles}}
-<section (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()">
-  <app-user username="wild-while" (addTurtleEvent)="onTurtelAdded($event)"></app-user>
-</section>
-{{message}}
-
-<div [contentEditable]="isEditable"></div>
-
-@defer (on viewport) {
-  <section>
-    <h3>Fun facts</h3>
-    <article>
-      @for (fact of facts; track $index) {
-        <li>{{fact.fact}}</li>
-      }
-      @empty {
-        There are none
-      }
-    </article>
-  </section>
-}
-@placeholder {
-  <h3>Guess what</h3>
-}
-@loading (minimum 2s) {
-  <p>Downloading Ram...</p>
-}

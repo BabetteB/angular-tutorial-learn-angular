@@ -1,0 +1,19 @@
+@defer (on viewport) {
+    <section>
+      <h3>Fun facts</h3>
+      <article>
+        @for (fact of facts; track $index) {
+          <li>{{fact.fact}}</li>
+        }
+        @empty {
+          There are none
+        }
+      </article>
+    </section>
+  }
+  @placeholder {
+    <h3>Guess what</h3>
+  }
+  @loading (minimum 2s) {
+    <p>Downloading Ram...</p>
+  }
