@@ -1,0 +1,8 @@
+<section>
+    {{turtles}}
+    <section (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()" >
+    <app-turtle (addTurtleEvent)="onTurtelAdded($event)"></app-turtle>
+    </section>
+
+    <div [contentEditable]="isEditable">{{message}}</div>
+</section>
