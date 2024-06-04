@@ -11,9 +11,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
-  @Input({
-    required: true
-  })
   username = 'lil-loop';
   randomImageGeneratorLink = "https://picsum.photos/400";  
 }
