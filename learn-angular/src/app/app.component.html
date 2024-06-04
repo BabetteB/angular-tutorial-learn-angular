@@ -11,6 +11,10 @@ Hello {{city}} {{1+1}}
   </p>
 }
 
+@for (user of users; track user.id) {
+  <p>{{user.name}}</p>
+}
+
 <section>
   <app-user></app-user>
 </section>
