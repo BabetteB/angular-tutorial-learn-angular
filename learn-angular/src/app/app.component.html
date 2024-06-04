@@ -15,8 +15,9 @@ Hello {{city}} {{1+1}}
   <p>{{user.name}}</p>
 }
 
-<section>
+<section (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()">
   <app-user></app-user>
 </section>
+{{message}}
 
 <div [contentEditable]="isEditable"></div>

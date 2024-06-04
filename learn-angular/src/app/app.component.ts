@@ -14,9 +14,19 @@ import { UserComponent } from './components/user/user.component';
 })
 export class AppComponent {
   city = 'San Francisco';
+  message = '';
 
   isServerRunning = true;
   isEditable = true;
 
   users = [{id: 0, name: 'Sarah'}, {id: 1, name: 'Amy'}, {id: 2, name: 'Rachel'}, {id: 3, name: 'Jessica'}, {id: 4, name: 'Poornima'}];
+
+  onMouseOver() {
+    this.message = 'Way to go 🚀';
+  }
+
+  onMouseLeave() {
+    this.message = '';
+  }
+
 }
