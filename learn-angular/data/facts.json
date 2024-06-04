@@ -1,0 +1,108 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "fact": "A group of flamingos is called a \"flamboyance\": The term is as colorful and striking as the birds themselves, which are known for their bright pink feathers and unique social behavior."
+    },
+    {
+      "id": 2,
+      "fact": "The shortest war in history lasted 38 to 45 minutes: The Anglo-Zanzibar War of 1896 holds this record, ending in a decisive British victory."
+    },
+    {
+      "id": 3,
+      "fact": "Octopuses have three hearts: Two pump blood to the gills, while the third pumps it to the rest of the body. When they swim, the heart that delivers blood to the rest of the body actually stops beating."
+    },
+    {
+      "id": 4,
+      "fact": "There are more stars in the universe than grains of sand on all the Earth's beaches: This mind-boggling fact highlights the vastness of the cosmos, with estimates suggesting there are around 100 billion to 200 billion galaxies."
+    },
+    {
+      "id": 5,
+      "fact": "Koalas have fingerprints almost identical to human fingerprints: Even under a microscope, it can be hard to distinguish between the two."
+    },
+    {
+      "id": 6,
+      "fact": "The inventor of the Pringles can is now buried in one: Fred Baur, who invented the Pringles can, requested that his ashes be buried in one when he passed away, and his family honored that request."
+    },
+    {
+      "id": 7,
+      "fact": "A jiffy is an actual unit of time: In physics, a jiffy is the time it takes light to travel one centimeter in a vacuum, which is approximately 33.3564 picoseconds."
+    },
+    {
+      "id": 8,
+      "fact": "The Eiffel Tower can be 15 cm taller during the summer: When a substance is heated up, its particles move more and it takes up a larger volume – this is known as thermal expansion. Thus, the iron structure expands in the heat."
+    },
+    {
+      "id": 9,
+      "fact": "Wombat poop is cube-shaped: This unique trait prevents the poop from rolling away and helps mark their territory more effectively."
+    },
+    {
+      "id": 10,
+      "fact": "Bananas glow blue under black light: This is due to the breakdown of chlorophyll as bananas ripen, which results in the emission of a blue fluorescence."
+    },
+    {
+      "id": 11,
+      "fact": "Cows have best friends: Research has shown that cows have strong social bonds and can become stressed when they are separated from their friends."
+    },
+    {
+      "id": 12,
+      "fact": "The world's largest snowflake on record measured 15 inches wide and 8 inches thick: This snowflake reportedly fell in Fort Keogh, Montana, in 1887."
+    },
+    {
+      "id": 13,
+      "fact": "Sea otters hold hands while sleeping to avoid drifting apart: This behavior helps them stay together in groups called rafts and avoid losing each other in the currents."
+    },
+    {
+      "id": 14,
+      "fact": "The heart of a blue whale is so large a human could swim through its arteries: Blue whales are the largest animals on Earth, and their hearts can weigh as much as 1,300 pounds."
+    },
+    {
+      "id": 15,
+      "fact": "There are more trees on Earth than stars in the Milky Way: Estimates suggest there are around 3 trillion trees on Earth, compared to the Milky Way's 100-400 billion stars."
+    },
+    {
+      "id": 16,
+      "fact": "Pigeons can recognize themselves in mirrors: This ability, known as self-recognition, is rare in the animal kingdom and indicates a high level of intelligence."
+    },
+    {
+      "id": 17,
+      "fact": "A bolt of lightning contains enough energy to toast 100,000 slices of bread: Lightning strikes can reach temperatures of roughly 30,000 Kelvin (53,540 degrees Fahrenheit)."
+    },
+    {
+      "id": 18,
+      "fact": "A day on Mercury is twice as long as its year: Mercury rotates very slowly, taking 59 Earth days to complete one rotation, but only takes 88 Earth days to orbit the sun."
+    },
+    {
+      "id": 19,
+      "fact": "There are more possible iterations of a game of chess than there are atoms in the known universe: The number of possible unique chess games is estimated to be more than 10^120."
+    },
+    {
+      "id": 20,
+      "fact": "Sloths can hold their breath longer than dolphins can: Sloths can slow their heart rates to hold their breath for up to 40 minutes underwater."
+    },
+    {
+      "id": 21,
+      "fact": "The \"E\" in the middle of the Hollywood sign originally stood for \"East\": When the sign was first erected in 1923, it read \"Hollywoodland\" and was an advertisement for a local real estate development. The \"land\" portion was removed in 1949."
+    },
+    {
+      "id": 22,
+      "fact": "The hashtag symbol is technically called an octothorpe: The \"octo-\" refers to the eight points of the symbol, but the origin of \"thorpe\" remains obscure."
+    },
+    {
+      "id": 23,
+      "fact": "Mantis shrimp can see many more colors than humans: While humans have three types of color receptors in their eyes, mantis shrimp have twelve, allowing them to perceive a spectrum of colors that is unimaginable to us."
+    },
+    {
+      "id": 24,
+      "fact": "The longest hiccuping spree lasted 68 years: Charles Osborne started hiccuping in 1922 and continued until 1990, hiccuping an estimated 430 million times."
+    },
+    {
+      "id": 25,
+      "fact": "Humans share 60% of their DNA with bananas: While humans and bananas may seem very different, the fundamental building blocks of life show significant similarities across all living organisms."
+    },
+    {
+      "id": 26,
+      "fact": "There are more possible iterations of a deck of cards than there are atoms on Earth: The number of ways to arrange a standard deck of 52 cards is 52 factorial, which is approximately 8.0658 x 10^67."
+    }
+  ]
+}
