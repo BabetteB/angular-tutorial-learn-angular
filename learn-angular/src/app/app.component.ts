@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
   }
 
   onMouseOver() {
-    this.message = 'Way to go 🚀';
+    this.message = '🚀';
   }
 
   onMouseLeave() {
