@@ -15,6 +15,7 @@ import { UserComponent } from './components/user/user.component';
 export class AppComponent {
   city = 'San Francisco';
   message = '';
+  turtles = '';
 
   isServerRunning = true;
   isEditable = true;
@@ -27,6 +28,10 @@ export class AppComponent {
 
   onMouseLeave() {
     this.message = '';
+  }
+
+  onTurtelAdded(turtle : string){
+    this.turtles = this.turtles.concat(turtle);
   }
 
 }

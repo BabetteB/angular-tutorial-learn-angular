@@ -15,8 +15,9 @@ Hello {{city}} {{1+1}}
   <p>{{user.name}}</p>
 }
 
+{{turtles}}
 <section (mouseover)="onMouseOver()" (mouseleave)="onMouseLeave()">
-  <app-user username="wild-while"></app-user>
+  <app-user username="wild-while" (addTurtleEvent)="onTurtelAdded($event)"></app-user>
 </section>
 {{message}}
 
