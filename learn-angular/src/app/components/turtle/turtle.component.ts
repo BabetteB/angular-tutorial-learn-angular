@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-turtle',
@@ -8,10 +8,18 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrl: './turtle.component.css'
 })
 export class TurtleComponent {
+  @Input()
+  turtleKind : string = '🦑';
+
   @Output()
   addTurtleEvent = new EventEmitter<string>();
+  
+  onInit(){
+    if (this.turtleKind != '🐢')
+      this.turtleKind = '🦑';
+  }
 
   addTurtle(){
-    this.addTurtleEvent.emit('🐢');
+    this.addTurtleEvent.emit(this.turtleKind);
   }
 }
