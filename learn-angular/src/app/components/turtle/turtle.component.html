@@ -1,1 +1,12 @@
 <button (click)="addTurtle()">Press here please</button>
+
+<p (copy)="makeFavoriteVisible()">🐢 | 🦑</p>
+
+<div [hidden]="!favoriteVisible">
+    <label for="animal">
+        hello, which is your favorite?
+        <input type="animal" type="text" [(ngModel)]="favoriteAnimal"/>
+    </label>
+    <button (click)="showAnimal()">Select animal</button>
+    You have selected: {{favoriteAnimal}}
+</div>
